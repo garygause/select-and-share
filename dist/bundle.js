@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=document.querySelector("form"),t=document.getElementById("address");e.addEventListener("submit",(function(e){e.preventDefault(),t.value}))})();
