@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-declare var google: any;
+//declare var google: any;
 
 const form = document.querySelector('form')!;
 const addressInput = document.getElementById('address')! as HTMLInputElement;
@@ -21,7 +21,7 @@ function searchAddressHandler(event: Event) {
     )
     .then((response) => {
       const coords = response.data.results[0].geometry.location;
-      const map = new google.maps.Map(document.getElementById('map'), {
+      const map = new google.maps.Map(document.getElementById('map')!, {
         center: coords,
         zoom: 16,
       });

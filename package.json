@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/googlemaps": "^3.43.3",
     "clean-webpack-plugin": "^4.0.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.3.3",
